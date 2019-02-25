@@ -15,8 +15,6 @@ library(landsat)
 #Register the parallel backend
 registerDoParallel(16)
 
-source(file='/usr3/graduate/emelaas/Code/R/landsat_sentinel/v1_3/topocorr_v3.R')
-
 args = commandArgs(trailingOnly=T) 
 tile_name = args[1]  
 
