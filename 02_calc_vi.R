@@ -15,6 +15,8 @@ library(landsat)
 #Register the parallel backend
 registerDoParallel(16)
 
+source(file='/usr3/graduate/emelaas/Code/GitHub/LPA/topocorr_v3.R')
+
 args = commandArgs(trailingOnly=T) 
 tile_name = args[1]  
 
