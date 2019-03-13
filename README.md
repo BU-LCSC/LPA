@@ -15,3 +15,7 @@ The scripts provided here allow users to apply the Landsat Phenology Algorithm a
 
 06_load_phenology.R - Ggenerates maps of annual/long-term average spring and autumn phenology 
 for each Landsat ARD tile
+
+For questions, please contact:
+Eli Melaas
+eli.melaas@gmail.com
